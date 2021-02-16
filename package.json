@@ -1,18 +1,25 @@
 {
-  "name": "nuxtjs",
-  "version": "1.0.0",
-  "description": "My astonishing Nuxt.js project",
-  "author": "msweeneydev",
+  "name": "vercel-nuxtjs-example",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt generate",
-    "start": "nuxt start"
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "nuxt": "^2.14.11"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "@nuxt/types": "^2  .14.11",
+    "@nuxt/typescript-build": "^2.0.2",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@types/node": "^14.14.12",
+    "dotenv": "^8.2.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.32.7",
+    "sass-loader": "8",
+    "typescript": "^4"
   }
 }
