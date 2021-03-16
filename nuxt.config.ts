@@ -29,6 +29,7 @@ const nuxtConfig: NuxtConfig = {
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/style-resources',
+    "@nuxtjs/pwa",
   ],
   modules: [
   ],
